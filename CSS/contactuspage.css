@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 450px;
+    padding-bottom: 20px;
+}
+
+.formspacing {
+    margin: 10px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 600px;
+    width: 49%;
+    float: left;
+}
+
+#right {
+    height: 600px;
+    width: 49%;
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+.spacebottom {
+    margin-bottom: 10px;
+}

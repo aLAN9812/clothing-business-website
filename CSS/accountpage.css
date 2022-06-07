@@ -1,0 +1,23 @@
+form {
+    margin: auto;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+label {
+    padding-left: 12px;
+    float: left;
+}
+
+.createaccount {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.formspacing {
+    margin: 20px;
+}

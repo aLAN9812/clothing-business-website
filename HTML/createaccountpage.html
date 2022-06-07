@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/createaccountpage.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src="../JS/common.js" defer></script>
+    <script src="../JS/createaccountpage.js" defer></script>
+    <title>Ramesses | Create Account</title>
+  </head>
+
+  <body>
+    <header>
+      <p class="centering banner">Free shipping for orders over $100 plus up to 75% off sale</p>
+      <a class="a1" href="homepage.html"><p class="centering">RAMESSES</p></a>
+    </header>
+
+    <nav class="topnav centering">
+      <a href="clothingpage.html">Clothing</a>
+      <a href="shoespage.html">Shoes</a>
+      <a href="accessoriespage.html">Accessories</a>
+      <div id="hiddenaccount">
+        <div id="links">
+          <a href="accountpage.html">Login</a>
+          <a href="createaccountpage.html"><span style="word-spacing: -4px; white-space: nowrap;">Create Account</span></a>
+        </div>
+        <button id="icon"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i></button>
+      </div>
+    </nav>
+    
+    <main>
+        <p class="centering heading">Register</p>
+        <div class="progresssteps">
+            <div class="container">
+                <div class="progress-container">
+                <div class="progress" id="progress"></div>
+                <div class="circle active current">1</div>
+                <div class="circle">2</div>
+                <div class="circle">3</div>
+                </div>
+            </div>
+        </div>
+        <form class="input" id="registration" action="registeringpage.html">
+            <div class="register">
+                <table>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" id="email" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="password" id="password" size="30"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="register inactive">
+                <table>
+                    <tr>
+                        <td><label for="fname">First name:</label></td>
+                        <td><input type="text" name="fname" id="fname" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last name:</label></td>
+                        <td><input type="text" name="lname" id="lname" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                            <select name="gender" id="gender">
+                                <option></option>
+                                <option value="male">Male</option>
+                                <option value="male">Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date of Birth:</label></td>
+                        <td><input type="date" name="dob" id="dob" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><input type="text" name="address" id="address" size="50"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City:</label></td>
+                        <td><input type="text" name="city" id="city" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="state">State:</label></td>
+                        <td>
+                            <select name="state" id="state">
+                                <option></option>
+                                <option value="Alabama">Alabama</option>
+                                <option value="Alaska">Alaska</option>
+                                <option value="Arizona">Arizona</option>
+                                <option value="Arkansas">Arkansas</option>
+                                <option value="California">California</option>
+                                <option value="Colorado">Colorado</option>
+                                <option value="Connecticut">Connecticut</option>
+                                <option value="Delaware">Delaware</option>
+                                <option value="District Of Columbia">District Of Columbia</option>
+                                <option value="Florida">Florida</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Hawaii">Hawaii</option>
+                                <option value="Idaho">Idaho</option>
+                                <option value="Illinois">Illinois</option>
+                                <option value="Indiana">Indiana</option>
+                                <option value="Iowa">Iowa</option>
+                                <option value="Kansas">Kansas</option>
+                                <option value="Kentucky">Kentucky</option>
+                                <option value="Louisiana">Louisiana</option>
+                                <option value="Maine">Maine</option>
+                                <option value="Maryland">Maryland</option>
+                                <option value="Massachusetts">Massachusetts</option>
+                                <option value="Michigan">Michigan</option>
+                                <option value="Minnesota">Minnesota</option>
+                                <option value="Mississippi">Mississippi</option>
+                                <option value="Missouri">Missouri</option>
+                                <option value="Montana">Montana</option>
+                                <option value="Nebraska">Nebraska</option>
+                                <option value="Nevada">Nevada</option>
+                                <option value="New Hampshire">New Hampshire</option>
+                                <option value="New Jersey">New Jersey</option>
+                                <option value="New Mexico">New Mexico</option>
+                                <option value="New York">New York</option>
+                                <option value="North Carolina">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="Ohio">Ohio</option>
+                                <option value="Oklahoma">Oklahoma</option>
+                                <option value="Oregon">Oregon</option>
+                                <option value="Pennsylvania">Pennsylvania</option>
+                                <option value="Rhode Island">Rhode Island</option>
+                                <option value="South Carolina">South Carolina</option>
+                                <option value="South Dakota">South Dakota</option>
+                                <option value="Tennessee">Tennessee</option>
+                                <option value="Texas">Texas</option>
+                                <option value="Utah">Utah</option>
+                                <option value="Vermont">Vermont</option>
+                                <option value="Virginia">Virginia</option>
+                                <option value="Washington">Washington</option>
+                                <option value="West Virginia">West Virginia</option>
+                                <option value="Wisconsin">Wisconsin</option>
+                                <option value="Wyoming">Wyoming</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="zip">Zip code:</label></td>
+                        <td><input type="text" name="zip" id="zip" maxlength="5" size="5"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="register inactive">
+                <table id="summarize">
+                    <tr>
+                        <td>Email:</td>
+                        <td id="emailinput"></td>
+                    </tr>
+                    <tr>
+                        <td>First name:</td>
+                        <td id="fnameinput"></td>
+                    </tr>
+                    <tr>
+                        <td>Last name:</td>
+                        <td id="lnameinput"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td id="genderinput"></td>
+                    </tr>
+                    <tr>
+                        <td>Date of birth:</td>
+                        <td id="dobinput"></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td id="addressinput"></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td id="cityinput"></td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td id="stateinput"></td>
+                    </tr>
+                    <tr>
+                        <td>Zip:</td>
+                        <td id="zipinput"></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+        <div class="progresssteps" style="flex-direction: column;">
+            <div>
+                <button class="btn" id="prev" disabled>Prev</button>
+                <button class="btn" id="next">Next</button>
+            </div>
+            <button class="btn inactive" type="submit" form="registration" id="submit">Register</button>
+        </div>  
+    </main>
+
+    <nav class="bottomnav">
+        <a href="aboutuspage.html">ABOUT US</a>
+        <a href="shippingpage.html">SHIPPING & RETURNS</a>
+        <a href="contactuspage.html">CONTACT US</a>
+    </nav>
+
+    <footer class="centering">
+      &copy; Copyright 2022 Ramesses US.
+    </footer>
+  </body>
+</html>

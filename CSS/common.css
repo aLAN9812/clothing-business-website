@@ -1,0 +1,122 @@
+body {
+    font-family: monospace; 
+}
+
+main {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.centering {
+    text-align: center;
+}
+
+.heading {
+    font-weight: bold; 
+    font-size: 25px; 
+    font-family: arial;
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: silver;
+    padding: 5px;
+    color: black;
+    font-family: "Lucida Console", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 12.5px;
+}
+
+.a1 { 
+    text-decoration: none;
+    color: black; 
+    font-weight: bold; 
+    letter-spacing: 0.5px; 
+    font-size: 35px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+}
+
+.topnav a:hover {
+    background-color:#ddd;
+    color: black;
+}
+
+.topnav a.currentpage {
+    background-color: #ddd;
+    color: black;
+}
+
+#hiddenaccount {
+    float: right;
+    display: flex;
+    align-items: center;
+    padding-right: 2.5px;
+}
+
+.bottomnav {
+    text-align: center;
+    padding: 20px;
+}
+
+.bottomnav a {
+    margin: 0 20px;
+    letter-spacing: 0px;
+    font-size: 10px;
+    font-family: arial;
+    text-decoration: none;
+    color: #585858;
+}
+
+footer {
+    font-size: smaller;
+    color: lightgray;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:disabled {
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    max-height: 38px;
+    width: 0px;
+    transition: width 0.3s ease;
+}
+
+#links.open {
+    width: 220px;
+}
